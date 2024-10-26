@@ -1,0 +1,201 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("HELLO WORLD ");
+    }
+}
+
+OP---------
+HELLO WORLD 
+----------------------------------------------
+While writing the code  you should write with
+int a=
+int A=
+int_ab=
+these gonna bee work 
+no special characters are gonna work
+eg:int #a=
+    int &b=
+-----------------------------------------------
+reserve words (54) in gava 
+
+refer to (java tea point) for the sm as w3 schools 
+--------------------------------------------------
+class HelloWorld{
+    public static void main(String[] args) {
+    int discount=10;
+    double totalprice=200;
+    double priceAfterDiscount = totalprice* (1 - ((double)discount/100));
+    System.out.println("customer has paid a bill of amount:"+ priceAfterDiscount);
+}
+}
+op--------------
+java -cp /tmp/AV6ChJEOyf/HelloWorld
+customer has paid a bill of amount:180.0
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/6gfd4toMruARN
+------------------------------------------------------------------
+ADDITION OF TWO NUMBERS
+
+import java.util.Scanner;
+class HelloWorld{
+    public static void main(String[] args) {
+        int a;
+        int b;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the of a value:");
+        a=scan.nextInt();
+        System.out.print("enter the of b value:");
+        b=scan.nextInt();
+         int c=a+b;
+        System.out.println(c);
+}
+}
+OP------------------
+enter the of a value:1
+enter the of b value:1
+2
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/8yAIQWt9OdKrb
+--------------------------------------------------------------
+import java.util.Scanner;
+class HelloWorld{
+    public static void main(String[] args) {
+        int a=5;
+        System.out.println((-a+1));
+ }
+}
+op==============
+java -cp /tmp/b93NWL9kAg/HelloWorld
+-4
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/51Uc5q6zHR0UW
+===============================================================
+import java.util.Scanner;
+class addoreven{
+    public static void main(String[] args) {
+        int a;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the of a value:");
+        a=scan.nextInt();
+        if (a%2==0){
+        System.out.println("given no is even");}
+        else{
+        System.out.println("given no is odd");}
+    }
+}
+op===============
+java -cp /tmp/j1b124sCdw/addoreven
+enter the of a value:10
+given no is even
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/2HdqWp3B1Lmgu
+-----------------------------------------------------------
+import java.util.Scanner;
+public class leapyear {
+    public static void main(String[] args) {
+        try (Scanner u = new Scanner(System.in)) {
+            int a=u.nextInt();
+            if (a%4==0 || a%100==0 || a%400==0) {
+                System.out.println("the year is leap year");
+            }
+            else{
+                System.out.println("the year is not leap year");
+            }
+        }
+    }
+}
+op===============
+java -cp /tmp/A5ghaXbIXV/leapyear
+2016
+the year is leap year
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/0K0ZqvYgp1i6Q
+-------------------------------------------------------------
+import java.util.Scanner;
+public class greatestnumberoutofthreenumbers {
+    public static void main(String[] args) {
+         int b;
+         int a;
+         int c;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the of a value:");
+        a=scan.nextInt();
+        System.out.print("enter the of b value:");
+        b=scan.nextInt();
+        System.out.print("enter the of b value:");
+        c=scan.nextInt();
+        if (a>b && a>c){
+            System.out.println(a);}
+        else if(b>a && b>c){
+            System.out.println(b);}
+        else {
+            System.out.println(c);}
+                     
+                 }
+                
+            }
+            
+       op===================
+java -cp /tmp/rjXSf3hNUq/greatestnumberoutofthreenumbers
+enter the of a value:5
+enter the of b value:10
+enter the of b value:15
+15
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/98tnsYJPhDvmt
+----------------------------------------------------------
+import java.util.Scanner;
+
+class PerfectSquareChecker {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Enter a number: ");
+        int number = scan.nextInt();
+        
+        double sqrt = Math.sqrt(number);
+        
+        // Check if the square root is an integer
+        if (sqrt == Math.floor(sqrt)) {
+            System.out.println(number + " is a perfect square.");
+    }   else {
+            System.out.println(number + " is not a perfect square.");
+ }
+}
+}
+op=================
+java -cp /tmp/aTk9yREPdZ/PerfectSquareChecker
+Enter a number: 5
+5 is not a perfect square.
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/6oVNONco3EULS
+-------------------------------------------------------------------
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a=10,b=20,c=21,d=18,max;
+    max=(a>b?a:b)>(c>d?c:d)?(a>b?a:b):(c>d?c:d);
+    printf("%d",max);
+}
+op===========
+/tmp/Pm2gVOUR8I.o
+21
+
+=== Code Execution Successful ===
+https://www.programiz.com/online-compiler/2YuLBIhfrtles
+------------------------------------------------------------------
+
+
+        
+        
+        
+
+
